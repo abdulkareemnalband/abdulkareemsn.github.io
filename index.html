@@ -1,10 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
 <head>
-<title>
-AbdulKareem Nalband
-</title>
+  <title>AbdulKareem</title>
+  <style>
+    #ex3_content {
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      /*background-color: gray;
+      color: white;*/
+      position: absolute;
+    }
+    #bg {
+      background: #888;
+      font-weight: bold;
+      padding: 40px;
+    }
+    .normal,
+    .engraved,
+    .engraved_d {
+      color: #444;
+    }
+    .engraved {
+      text-shadow: 0px -2px 0px #222;
+    }
+    .engraved_d {
+      text-shadow: 0px -1px 0px #222, 0px 1px 0px #aaa;
+    }
+    .title {
+      font-size: 3em;
+    }
+  </style>
 </head>
-<body style="background:#00FF99">
-<header><h1>Hello, World!</h1></header>
+
+<body id="bg">
+  <div class="engraved_d" id="ex3_content">
+    <div class="title">AbdulKareem</div>
+    <hr />
+  </div>
 </body>
+
+</html>
